@@ -21,6 +21,3 @@ appId: "com.example.maestro_demo"
 - tapOn: "Join Now"
 - assertVisible: "Joining"
 - assertVisible: "Doutor"
-
-
-

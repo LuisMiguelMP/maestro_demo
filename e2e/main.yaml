@@ -1,9 +1,9 @@
 appId: "com.example.maestro_demo"
 ---
-- clearState: "com.android.chrome"
+  - clearState: "com.android.chrome"
 - launchApp:
     clearState: true
     permissions:
       all: allow
 - runFlow: "home/main.yaml"
-# - runFlow: "video_room/main.yaml"
+- runFlow: "video_room/main.yaml"

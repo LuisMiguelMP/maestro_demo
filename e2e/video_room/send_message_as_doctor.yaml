@@ -1,9 +1,9 @@
 appId: "com.example.maestro_demo"
 ---
 - tapOn:
-    point: "50%,50%"
+    point: "50%,50%" #tap to open menu
 - tapOn:
-    point: "68%,88%"
+    point: "68%,88%" #tap on chat icon relative position
 - tapOn: "Send a message...."
 - inputText: "Olá paciente!"
 - pressKey: "Enter"
