@@ -1,0 +1,26 @@
+appId: "com.example.maestro_demo"
+---
+- openLink:
+    link: "https://yogi.app.100ms.live/meeting/ssz-eqr-eaa"
+    autoVerify: true
+    browser: true
+- tapOn: "Accept & continue"
+- tapOn: "Yes, I'm in"
+- assertVisible: "yogi.app.100ms.live wants to use your camera and microphone"
+- tapOn: "Allow"
+- assertVisible: "Allow Chrome to take pictures and record video?"
+- tapOn: "Allow"
+- assertVisible: "Allow Chrome to record audio?"
+- tapOn: "Allow"
+- tapOn: "Enter name"
+- inputText: "Doutor"
+- swipe:
+    start: "50%,36%"
+    end: "48%,13%"
+    duration: 1153
+- tapOn: "Join Now"
+- assertVisible: "Joining"
+- assertVisible: "Doutor"
+
+
+

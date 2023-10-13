@@ -1,0 +1,13 @@
+appId: "com.example.maestro_demo"
+---
+- tapOn: "Solicitar consulta"
+- assertVisible: "Aguarde, você receberá uma notificação quando a consulta estiver pronta..."
+- swipe:
+    start: "50%,1%"
+    end: "50%,70%"
+    duration: 3000
+- assertVisible: "A sala da consulta está pronta!"
+- tapOn: "Clique aqui para acessá-la!"
+- assertVisible: "Preparando áudio e vídeo..."
+- assertVisible: "A consulta começará em 0 segundos..."
+- assertVisible: "Paciente"

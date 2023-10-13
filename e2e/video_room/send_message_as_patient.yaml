@@ -1,0 +1,10 @@
+appId: "com.example.maestro_demo"
+---
+- tapOn: "Mensagens\nTab 4 of 5"
+- assertVisible: "Olá paciente!"
+- tapOn:
+    point: "50%,78%"
+- inputText: "Olá doutor!"
+- pressKey: "Enter"
+- tapOn:
+    point: "50%,50%"

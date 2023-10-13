@@ -1,0 +1,12 @@
+appId: "com.example.maestro_demo"
+---
+- tapOn:
+    point: "50%,50%"
+- tapOn:
+    point: "68%,88%"
+- tapOn: "Send a message...."
+- inputText: "Olá paciente!"
+- pressKey: "Enter"
+- launchApp:
+    appId: "com.example.maestro_demo"
+    stopApp: false

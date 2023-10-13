@@ -1,0 +1,6 @@
+appId: "com.example.maestro_demo"
+---
+- runFlow: "access_as_doctor.yaml"
+- runFlow: "send_message_as_patient.yaml"
+- runFlow: "send_message_as_doctor.yaml"
+- runFlow: "back_to_home.yaml"

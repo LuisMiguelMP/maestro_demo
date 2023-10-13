@@ -1,0 +1,4 @@
+appId: "com.example.maestro_demo"
+---
+- tapOn: "Sair\nTab 5 of 5"
+- assertVisible: "Solicitar consulta"
